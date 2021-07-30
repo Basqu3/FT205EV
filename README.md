@@ -26,6 +26,6 @@ Sensor Overview:
 	Open TeraTerm and select the USB COM port in the serial dropdown. The Sensor requires CR+LF line endings so open SETUP>TERMINAL in the TeraTerm window. Change the New-Line      options from CR to CR+LF. 
 	Optionally check the Local Echo box to see user input. Before any communications are made; the sensor needs to be set into RS485 mode and the continuous update turned off. Do that using these commands:
 		$01,CUD*//  
-		$01,CI8*//  
+		$01,CI8*//
 	After these commands are entered; the sensor should be able to communicate with the PC. Either open the ACU-VIS included software or send commands through TeraTerm to ensure connection. 
 	Check the Sensor User Manual to see full list of commands. 
