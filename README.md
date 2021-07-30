@@ -1,6 +1,6 @@
-FT205EV
+# **FT205EV**
 
-Introductory Information:
+### Introductory Information:
 	The FT205EV Sensor is an ultrasonic wind sensor. It utilizes known properties of sound to measure wind speed,
 	wind direction in relation to the onboard compass, and temperature. This project provides a method to mount the sensor, PCB and required external battery on a DJI Inspire. 
 	File List:
@@ -17,7 +17,7 @@ Introductory Information:
 
 	The .INO file needs to be uploaded to the Arduino before use with the sensor. It utilizes <SPI.h>, <SD.h>, <Wire.h>, and "RTClib.h" libraries. 
 
-Sensor Overview:
+### Sensor Overview:
 	The FT205EV sensor requires a DC voltage across the range of 6-30 V. The PCB will handle voltage between 6-8V. 
 	If a different power source (not the 7.4V LiPo) is desired, voltage regulation needs to be included. 
 	The Sensor uses Serial ASCII communication. It has 3 protocol options: RS422, RS485 and UART. This system utilizes UART. 
